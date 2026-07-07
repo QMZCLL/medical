@@ -1,0 +1,48 @@
+# Local git storage used because this workspace has a read-only .git placeholder.
+.git-local/
+.git/
+
+# Codex/agent runtime metadata
+.agents/
+.codex/
+
+# Secrets and local environment
+.env
+*.env
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache and build outputs
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs and temporary outputs
+*.log
+logs/
+tmp/
+outputs/
+
+# Training and evaluation generated artifacts
+checkpoints/
+wandb/
+tensorboard_log/
+results/
+*.zip
+
+# Notebook and editor files
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
